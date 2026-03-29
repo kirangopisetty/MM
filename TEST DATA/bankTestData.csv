@@ -1,0 +1,4 @@
+varUN,varPWD,varAccount,varStartDate,varEndDate,varFromAccount,varToAccount,varTransferAmt,varName,varEmail,varSubject,varMessage,,,
+jsmith,demo1234,800002,2026-03-20,2026-03-22,800002,800003,1,Ashuthosh,ashuthosh@gmail.com,FixedDeposit,What is the rate of interest per annum ?,,,
+admin,admin,800003,2026-01-01,2026-01-31,800003,4539082039396280,2,Dubai,dubai@uae.com,Home Loans-NRI,Thank you for approving the Home Loan to NRI,,,
+admin,admin,4539082039396280,2026-02-01,2026-02-28,4539082039396280,800002,3,Kiran,kiran@ibm.com,Personal Loans,Can I prepay my personal loan ?,,,

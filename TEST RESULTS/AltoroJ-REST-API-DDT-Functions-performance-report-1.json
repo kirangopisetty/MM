@@ -1,0 +1,66 @@
+{
+  "spec": "0.1.0-alpha.1",
+  "type": "summary",
+  "run_id": "1f12a80c-30ce-4a20-8f6c-1c937f4a5656",
+  "window": {
+    "start": "2026-03-28T08:33:22.485Z",
+    "end": "2026-03-28T08:34:18.726Z"
+  },
+  "load": {
+    "vus": 10,
+    "duration_ms": 60000
+  },
+  "totals": {
+    "samples": 916,
+    "passes": 916,
+    "fails": 0,
+    "error_rate": 0
+  },
+  "throughput": {
+    "rps_avg": 16.29
+  },
+  "latency": {
+    "unit": "ms",
+    "p50": null,
+    "p90": 583,
+    "p95": 622,
+    "p99": 2646,
+    "mean": 594,
+    "max": 2746
+  },
+  "by_op": {
+    "transfer": {
+      "samples": 460,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 601,
+        "p95": 652,
+        "p99": 2710
+      }
+    },
+    "send Feedback": {
+      "samples": 456,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 570,
+        "p95": 583,
+        "p99": 1097
+      }
+    }
+  },
+  "x_postman": {
+    "run_info": {
+      "run_number": 1,
+      "name": null,
+      "collection_name": "AltoroJ REST API-DDT-Functions",
+      "environment_name": "-",
+      "elapsed_time": 0.94
+    },
+    "load_profile": {
+      "duration": 1,
+      "type": "Fixed"
+    }
+  }
+}

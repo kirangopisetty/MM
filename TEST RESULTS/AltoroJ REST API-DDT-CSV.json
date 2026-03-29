@@ -1,0 +1,749 @@
+{
+	"id": "5e8a1d62-adf5-4568-bfc2-a1eb2cde153a",
+	"name": "AltoroJ REST API-DDT-CSV",
+	"timestamp": "2026-03-28T08:09:36.239Z",
+	"collection_id": "5040522-91f11eb6-8fd0-40d1-81d6-4d88a4d04488",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 123,
+	"delay": "100",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-03-28T08:09:05.166Z",
+	"totalFail": 18,
+	"results": [
+		{
+			"id": "b2d6161a-761d-4534-ab3d-1841c3a381ee",
+			"name": "Login method",
+			"url": "https://demo.testfire.net/api/login",
+			"time": 574,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": true,
+				"Verify if user is logged in": true,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if user is logged in": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				2318,
+				574,
+				574
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": false,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged in": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged in": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged in": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "22e8a07f-860a-42a8-8471-900356f869d6",
+			"name": "Check if any user is logged in",
+			"url": "https://demo.testfire.net/api/login",
+			"time": 579,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": true,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				575,
+				575,
+				579
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "d4203140-ca78-4f65-89db-2e1a6db4d21d",
+			"name": "get Account",
+			"url": "https://demo.testfire.net/api/account",
+			"time": 595,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": true,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				576,
+				574,
+				595
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "f8562fd5-0904-4b5c-b80c-03d596111f38",
+			"name": "get Account Balance",
+			"url": "https://demo.testfire.net/api/account/4539082039396280",
+			"time": 575,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": false,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": false,
+				"Verify if Content-Type=application/json": false,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				577,
+				578,
+				575
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": false,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": false,
+					"Verify if Content-Type=application/json": false,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "5710071a-a3f0-4dba-8851-43fbd92c8ed3",
+			"name": "show Last Ten Transactions",
+			"url": "https://demo.testfire.net/api/account/4539082039396280/transactions",
+			"time": 2283,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": false,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": false,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				576,
+				675,
+				2283
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": false,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": false,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "2bbc9dfa-e37f-4b91-86a0-914cc40eea4b",
+			"name": "get Transactions",
+			"url": "https://demo.testfire.net/api/account/4539082039396280/transactions",
+			"time": 572,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": false,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": false,
+				"Verify if Content-Type=application/json": false,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				579,
+				578,
+				572
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": false,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": false,
+					"Verify if Content-Type=application/json": false,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "a83577db-59c2-4f14-9827-09c2ef7d7ef0",
+			"name": "transfer",
+			"url": "https://demo.testfire.net/api/transfer",
+			"time": 2341,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": false,
+				"Verify if response time is < 2seconds": false,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": false,
+				"Verify if Content-Type=application/json": false,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 1,
+					"fail": 2
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 2,
+					"fail": 1
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 1,
+					"fail": 2
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 1,
+					"fail": 2
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				581,
+				580,
+				2341
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": false,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": false,
+					"Verify if Content-Type=application/json": false,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": false,
+					"Verify if response time is < 2seconds": false,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": false,
+					"Verify if Content-Type=application/json": false,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "a055e562-e1c5-4351-9633-2933d112f9e7",
+			"name": "send Feedback",
+			"url": "https://demo.testfire.net/api/feedback/submit",
+			"time": 2311,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": false,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": true,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 1,
+					"fail": 2
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				575,
+				2335,
+				2311
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": false,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": false,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		},
+		{
+			"id": "a11bd504-bff1-42e1-b5e9-3d5287c23af9",
+			"name": "do Log Out",
+			"url": "https://demo.testfire.net/api/logout",
+			"time": 577,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 200 OK": true,
+				"Verify if response time is < 2seconds": true,
+				"Verify if response body is present": true,
+				"Verify if response body is valid": true,
+				"Verify if user is logged out": true,
+				"Verify if Content-Type=application/json": true,
+				"Verify if response headers do not display project specific sensitive data": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 200 OK": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response time is < 2seconds": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is present": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response body is valid": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if user is logged out": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if Content-Type=application/json": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Verify if response headers do not display project specific sensitive data": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				578,
+				577,
+				577
+			],
+			"allTests": [
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged out": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged out": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				},
+				{
+					"Verify if response code is 200 OK": true,
+					"Verify if response time is < 2seconds": true,
+					"Verify if response body is present": true,
+					"Verify if response body is valid": true,
+					"Verify if user is logged out": true,
+					"Verify if Content-Type=application/json": true,
+					"Verify if response headers do not display project specific sensitive data": false
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 24388,
+	"collection": {
+		"requests": [
+			{
+				"id": "b2d6161a-761d-4534-ab3d-1841c3a381ee",
+				"method": "POST"
+			},
+			{
+				"id": "22e8a07f-860a-42a8-8471-900356f869d6",
+				"method": "GET"
+			},
+			{
+				"id": "d4203140-ca78-4f65-89db-2e1a6db4d21d",
+				"method": "GET"
+			},
+			{
+				"id": "f8562fd5-0904-4b5c-b80c-03d596111f38",
+				"method": "GET"
+			},
+			{
+				"id": "5710071a-a3f0-4dba-8851-43fbd92c8ed3",
+				"method": "GET"
+			},
+			{
+				"id": "2bbc9dfa-e37f-4b91-86a0-914cc40eea4b",
+				"method": "POST"
+			},
+			{
+				"id": "a83577db-59c2-4f14-9827-09c2ef7d7ef0",
+				"method": "POST"
+			},
+			{
+				"id": "a055e562-e1c5-4351-9633-2933d112f9e7",
+				"method": "POST"
+			},
+			{
+				"id": "a11bd504-bff1-42e1-b5e9-3d5287c23af9",
+				"method": "GET"
+			}
+		]
+	}
+}
